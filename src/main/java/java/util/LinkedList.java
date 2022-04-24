@@ -587,7 +587,7 @@ public class LinkedList<E>
     /**
      * Returns the (non-null) Node at the specified element index.
      */
-    // 根据搜索因为查询节点
+    // 根据链表索引位置查询节点
     Node<E> node(int index) {
         // index 处于队列的前半部分，从头开始找
         if (index < (size >> 1)) {
